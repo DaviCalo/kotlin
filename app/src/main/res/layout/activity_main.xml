@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#48A3C7"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Segunda-feira, 13 de Dezembro"
+        android:textColor="#ffffff"
+        android:textSize="26sp" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@id/text"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff" />
+
+    <CheckBox
+        android:id="@+id/che1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:layout_marginTop="10dp"
+        android:text="Corta a grama"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/che2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/che1"
+        android:layout_marginTop="10dp"
+        android:text="Estudar"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/che3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/che2"
+        android:layout_marginTop="10dp"
+        android:text="Arrumar a cama"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/che4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/che3"
+        android:layout_marginTop="10dp"
+        android:text="Almoçar"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/che5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/che4"
+        android:layout_marginTop="10dp"
+        android:text="Ir a esccola"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Complete todas as tarefas."
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        />
+</RelativeLayout>
